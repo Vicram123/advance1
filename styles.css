@@ -8,11 +8,12 @@ body {
 .topnav {
   display: flex;
   justify-content: flex-end; /* Aligns items to the right */
+  color: #000;
   align-items: center;
   font-size: small;
   background-color: #b2ebf2; /* Dark background */
   width: 100%; /* Full width */
-  height: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -30,7 +31,7 @@ body {
 }
 
 .menuList a {
-  color: #fff; /* Link color */
+  color: #000; /* Link color */
   text-decoration: none; /* Removes underline */
 }
 
@@ -46,7 +47,6 @@ body {
   justify-content: center;
   padding-top: 12px;
   height: 10rem;
-  background: rgb(2, 0, 36);
   background: linear-gradient(to bottom, #0000ff, #ffffff);
 }
 .main h1 {
