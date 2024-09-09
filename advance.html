@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f8e1a90484.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Responsive website</title>
+  </head>
+  <body>
+    <nav class="topnav">
+      <div class="logo">
+        <h1>About Us</h1>
+      </div>
+      <ul id="menuList" class="menuList">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Find us on Facebook</a></li>
+        <li><a href="#">Follow us on Twitter</a></li>
+        <li><a href="#">RSS Feed</a></li>
+      </ul>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+
+    <div class="main">
+      <h1>Lorem Ipsum</h1>
+    </div>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">
+          Services
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub Home 1</a>
+          <a href="#">Sub Home 2</a>
+          <a href="#">Sub Home 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          News
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sub News 1</a>
+          <a href="#">Sub News 2</a>
+          <a href="#">Sub News 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item grid-item1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          aspernatur eos. Voluptatum corporis ex eaque in est eligendi quae
+          doloribus repellat distinctio nemo hic id optio a accusamus facilis
+          assumenda voluptates consequuntur, ipsam natus. Officia fugit
+          explicabo iusto ipsum laborum odio fugiat neque! Tempora reiciendis
+          porro mollitia nisi facilis fugiat ad suscipit unde optio, debitis
+          consequuntur quam dignissimos eaque! At consequuntur temporibus
+          inventore voluptates molestiae. Laborum perspiciatis animi officiis.
+          Dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur, aspernatur eos. Voluptatum corporis ex eaque in est
+          eligendi quae doloribus repellat distinctio nemo hic id optio a
+          accusamus facilis assumenda voluptates consequuntur, ipsam natus.
+          Officia fugit explicabo iusto ipsum laborum odio fugiat neque! Tempora
+          reiciendis porro mollitia nisi facilis fugiat ad suscipit unde optio,
+          debitis consequuntur quam dignissimos eaque! At consequuntur
+          temporibus inventore voluptates molestiae. Laborum perspiciatis animi
+          officiis. Dolore! Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit. Culpa molestiae cum excepturi aperiam illum quaerat, ex earum
+          praesentium id illo consequuntur exercitationem perspiciatis
+          asperiores magnam debitis, perferendis nostrum error ea laborum animi
+          quia voluptatibus omnis.
+        </p>
+      </div>
+      <div class="grid-item grid-item2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          aspernatur eos. Voluptatum corporis ex eaque in est eligendi quae
+          doloribus repellat distinctio nemo hic id optio a accusamus facilis
+          assumenda voluptates consequuntur, ipsam natus. Officia fugit
+          explicabo iusto ipsum laborum odio fugiat neque! Tempora reiciendis
+          porro mollitia nisi facilis fugiat ad suscipit unde optio, debitis
+          consequuntur quam dignissimos eaque! At consequuntur temporibus
+          inventore voluptates molestiae. Laborum perspiciatis animi officiis.
+          Dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias, necessitatibus. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Cupiditate, perspiciatis repudiandae consequuntur
+          libero, soluta molestiae molestias vero architecto dignissimos eveniet
+          sed quia earum magnam fuga accusamus voluptatem explicabo eligendi
+          repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consequuntur, aspernatur eos. Voluptatum corporis ex eaque in est
+          eligendi quae doloribus repellat distinctio nemo hic id optio a
+          accusamus facilis assumenda voluptates consequuntur, ipsam natus.
+          Officia fugit explicabo iusto ipsum laborum odio fugiat neque! Tempora
+          reiciendis porro mollitia nisi facilis fugiat ad suscipit unde optio,
+          debitis consequuntur quam dignissimos eaque! At consequuntur
+          temporibus inventore voluptates molestiae. Laborum perspiciatis animi
+          officiis. Dolore!
+        </p>
+      </div>
+      <div class="grid-item items grid-item3">
+        <div class="">
+          <h2>Link List</h2>
+          <ul>
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+            <li><a href="">Item 4</a></li>
+            <li><a href="">Item 5</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <h2>Link List</h2>
+          <ul>
+            <ul>
+              <li><a href="">Item 1</a></li>
+              <li><a href="">Item 2</a></li>
+              <li><a href="">Item 3</a></li>
+              <li><a href="">Item 4</a></li>
+              <li><a href="">Item 5</a></li>
+            </ul>
+          </ul>
+        </div>
+        <div class="">
+          <h2>Link List</h2>
+          <ul>
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+            <li><a href="">Item 4</a></li>
+            <li><a href="">Item 5</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Footer Content © 2024</p>
+    </footer>
+    <script>
+      // Close dropdowns when clicking outside
+      window.onclick = function (event) {
+        if (
+          !event.target.matches(".dropbtn") &&
+          !event.target.matches(".navbar a")
+        ) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          for (var i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].style.display = "none"; // Hide all dropdowns
+          }
+        }
+      };
+
+      // Toggle dropdown on button click for mobile
+      document.querySelectorAll(".dropbtn").forEach((button) => {
+        button.addEventListener("click", function (event) {
+          event.stopPropagation(); // Prevent click from bubbling up
+          const dropdownContent = this.nextElementSibling;
+          dropdownContent.style.display =
+            dropdownContent.style.display === "block" ? "none" : "block";
+        });
+      });
+
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      function toggleMenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "300px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
